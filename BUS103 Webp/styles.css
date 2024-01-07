@@ -1,0 +1,176 @@
+/* Airbnb-inspired Styles */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff; /* Set background to white */
+    color: #283b42; /* Text color for all pages */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #d1dddb;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #283b42; /* Text color */
+}
+
+.logo img {
+    width: 120px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Niagara Solid', sans-serif; /* Change the font of the name */
+    font-size: 5rem;
+    margin-left: 10px; /* Adjust as needed */
+    letter-spacing: .3rem;
+    transition: 0.3s;
+}
+.name:hover {
+    color: #1d6a96;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Add this line */
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #283b42; /* Text color */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #1d6a96;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+}
+
+/* Introduction Section */
+.introduction {
+    margin-bottom: 20px;
+}
+
+/* Lengthy Description Section */
+.lengthy-description {
+    margin-bottom: 20px;
+}
+
+/* Products Section */
+.products-section {
+    background-color: #283b42;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.products-section h2 {
+    font-family: 'Niagara Solid', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+}
+
+.products-button {
+    background-color: #85b8cb;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.products-button:hover {
+    background-color: #1d6a96;
+}
+
+/* Personalized Service Section */
+.personalized-service {
+    
+    background-color: #283b42;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.personalized-service h2 {
+    font-family: 'Niagara Solid', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: .2rem;
+}
+
+.services-button {
+    background-color: #85b8cb;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.services-button:hover {
+    background-color: #1d6a96;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.product h1 {
+    font-family: 'Niagara Solid', sans-serif;
+    color: #283b42; /* Set title text color */
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product strong {
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+    background-color: #283b42;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; /* Adjusted margin-top */
+    border-top: 1px solid #e0e0e0;
+}
